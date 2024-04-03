@@ -1,0 +1,38 @@
+1. Створити свій власний публічний репозиторій
+
+	создать в github репозиторий HW12_QA_MANUAL
+
+2. Стягнути його собі локально
+
+	git clone git@github.com:Karina869/HW12.git
+
+3. В гілці master додати файл з назвою “назва групи” 
+	
+	cd HW12_QA_MANUAL
+	git checkout -b MASTER
+	создать файл с названием "QA_Manual_29.01.2024"
+	git add .
+
+4. Зробити в файлі два коміти(будь які зміни, це необхідно для вашої практики)
+
+	git commit -m "Added file with home work"
+	git add .
+	git commit -m "Add to file koments"
+	git add QA_Manual_29.01.2024.txt
+	git commit -m "changing the file name"
+	
+5. Додати зміни до віддаленого репозиторію
+
+	
+
+6. Створити гілку “name.surname.gitpractice”
+
+
+
+7. На вашій гілці додати зміни(будь які, наприклад до файлу додати новий рядок "Hello world"), та додати їх до віддаленого репозиторію
+
+
+
+8. ДЗ здавати як посилання на ваш репозиторій.
+
+
