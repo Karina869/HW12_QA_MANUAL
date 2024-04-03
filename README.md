@@ -1,0 +1,1 @@
+# HW12_QA_MANUAL
