@@ -18,20 +18,38 @@
 	git commit -m "Added file with home work"
 	git push origin MASTER
 	cделать изменения в файле (в конце текста добавить Hello world)
+	git add QA_Manual_29.01.2024.txt
+	git commit -m "Added at the end of the file HELLO WORLD!!!!!"
+	git push origin MASTER
+
+в случае для исправления коммита 
+	git commit --amend -m "ПРАВИЛЬНЫЙ КОММИТ"
+	git push --force origin MASTER
 	
 5. Додати зміни до віддаленого репозиторію
 
-	
+	Создать pull requests
 
 6. Створити гілку “name.surname.gitpractice”
 
-
+	git checkout -b Karina.Bruleva.gitpractice
 
 7. На вашій гілці додати зміни(будь які, наприклад до файлу додати новий рядок "Hello world"), та додати їх до віддаленого репозиторію
 
+	Создать файл Hello_world
+	git add Hello_world.txt
+	git commit -m "Added file Hello world"
+	git push origin Karina.Bruleva.gitpractice
+	cделать изменения в файле (добавить Hello world)
+	git add Hello_world.txt
+	git commit -m "Added at the file HELLO WORLD"
+	git push origin Karina.Bruleva.gitpractice
 
+	Создать pull requests
 
 8. ДЗ здавати як посилання на ваш репозиторій.
+	
+	https://github.com/Karina869/HW12_QA_MANUAL/pulls?q=is%3Apr+is%3Aclosed
 
 HELLO WORLD!!!!!
 
